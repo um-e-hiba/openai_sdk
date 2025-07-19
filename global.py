@@ -3,7 +3,7 @@ import asyncio
 from agents import Agent, Runner, AsyncOpenAI,OpenAIChatCompletionsModel, set_default_openai_client, set_tracing_disabled, set_default_openai_api
 from openai.types.responses import ResponseTextDeltaEvent
 
-gemini_api_key = "AIzaSyDEHmqYAkafo511WLKVDQfn9LaZCWpD9F4"
+gemini_api_key = "AIzaSyBwzy42_jYKyR2RU0vS0TQJ55AFfbS4PtY"
 set_tracing_disabled(True)
 set_default_openai_api("chat_completions")
 
