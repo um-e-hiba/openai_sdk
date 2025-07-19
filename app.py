@@ -2,7 +2,7 @@ import asyncio
 from openai import AsyncOpenAI
 from agents import Agent, OpenAIChatCompletionsModel, Runner, set_tracing_disabled
 
-gemini_api_key = "AIzaSyDEHmqYAkafo511WLKVDQfn9LaZCWpD9F4"
+gemini_api_key = "AIzaSyBwzy42_jYKyR2RU0vS0TQJ55AFfbS4PtY"
 
 #Reference: https://ai.google.dev/gemini-api/docs/openai
 client = AsyncOpenAI(
