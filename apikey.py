@@ -1,7 +1,7 @@
 from agents import Agent, Runner, OpenAIChatCompletionsModel, RunConfig, set_tracing_disabled
 from openai import AsyncOpenAI
 
-gemini_api_key = "AIzaSyDEHmqYAkafo511WLKVDQfn9LaZCWpD9F4"
+gemini_api_key = "Api key"
 
 client = AsyncOpenAI(
     api_key = gemini_api_key,
